@@ -6,6 +6,7 @@ const Main = () => {
         <>
             <p>Project 1 <Link to={'/project1'}>here</Link></p>
             <p>Project 2 <Link to={'/project2'}>here</Link></p>
+            <p>Project 3 <Link to={'/project3'}>here</Link></p>
         </>
     )
 }

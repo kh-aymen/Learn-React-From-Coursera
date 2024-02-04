@@ -1,0 +1,82 @@
+.card {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+.card-hr {
+    max-width: 700px;
+    margin: auto;
+    border-color: #00000010;
+}
+
+.card-img {
+    flex: 1;
+    width: 130px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+    background-size: 100%;
+    transition: all ease-in-out 150ms;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+.card-img:hover img {
+    transform: scale(1.2);
+}
+
+.card-info {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 170px;
+}
+
+.card-info .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card-info .location span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.card-info .location a {
+    color: gray;
+    transition: all ease-in 150ms;
+}
+
+.card-info .location a:hover {
+    color: rgb(224, 129, 129);
+}
+
+.card-info .title {
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.card-info .description h3 {
+    margin-bottom: 5px;
+}

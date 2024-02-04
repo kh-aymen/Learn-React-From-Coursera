@@ -1,0 +1,25 @@
+.travel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.travel-nav {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.travel-nav p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.travel-nav img{
+    width: 30px;
+}
