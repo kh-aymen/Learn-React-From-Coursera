@@ -1,0 +1,40 @@
+.card {
+    width: 200px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: .5rem;
+    position: relative;
+}
+
+.card--image {
+    width: 200px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.card-status {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.card--star--img {
+    width: 17px;
+}
+
+.card-btn{
+    position: absolute;
+    top: .7rem;
+    left: .7rem;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    padding: 8px;
+    font-size: 11.25px;
+    text-transform: uppercase;
+}

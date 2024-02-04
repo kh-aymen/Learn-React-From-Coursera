@@ -8,4 +8,9 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.gray {
+  color: #918E9B;
 }
