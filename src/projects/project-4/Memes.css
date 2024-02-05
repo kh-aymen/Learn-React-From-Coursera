@@ -1,0 +1,77 @@
+.Memes-navbar {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: #fff;
+}
+
+.Memes-navbar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Memes-navbar .logo img {
+    width: 50px;
+}
+
+.Memes-navbar .logo h1 {
+    letter-spacing: -1px;
+}
+
+.Memes-form {
+    width: 600px;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.Memes-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Memes-form form .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.Memes-form form .inputs div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Memes-form form .inputs input {
+    padding: .7rem 1.3rem;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #6B7280;
+    color: #6B7280;
+    font-size: 1rem;
+}
+
+.Memes-form form .inputs label {
+    font-size: 1.1rem;
+}
+
+.Memes-form form button {
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: #fff;
+    padding: 1rem 1.2rem;
+    border-radius: 9px;
+    cursor: pointer;
+}
